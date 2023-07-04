@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 const DetailsPage = () => {
   const { post } = useSelector((state) => state.detailsCard);
   
-  if(!post) return <h1>Loading...</h1>
+  if(!post) return <h1>Loading.....</h1>
   
   return (
     <div className='details-container'>
